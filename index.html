@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HappyTrav</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <!-- NAV SECTION -->
+    <section id="headerNavigation">
+      <a href="#"><img src="assets/logo.png" alt="HappyTrav Logo"></a>
+      <nav id="navigation" class="nav" onclick="myFunction()">
+        <a style="text-align: center;" href="#">Home</a>
+        <a href="#">Our Package</a>
+        <a href="#">Call Us</a>
+
+      </nav>
+    </section>
+    <!-- TITLE SECTION -->
+    <section id="headerTitle">
+      <h1>HappyTrav</h1>
+      <h3 id="subtitle">Yuk bisa Yuk</h3>
+    </section>
+  </header>
+
+  <main style="display: flex;">
+    <section id="callUs" style="width: 50%;">
+      <article id="article">
+        <img src="" alt="">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="assets/travelAgent1.png" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="assets/travelAgent2.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="assets/travelAgent3.jpg" style="width:100%">
+          </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <h5>"Liburan lebih menyenangkan menggunakana Travel HappyTrav."</h5>
+      </article>
+      <p>Use this space provide Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe harum sapiente sit, optio laborum iure ut maiores dicta impedit distinctio adipisci sunt, perferendis quis quaerat, fugiat magni quo? Laborum, magnam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum eaque soluta modi reiciendis aperiam quasi, at mollitia officia cumque recusandae expedita, ipsum voluptatibus, id in omnis sint! Nam, dicta explicabo?</p>
+      
+    </section>
+
+
+    <section id="form" style="width: 50%;">
+      <form class="form" onsubmit="return validateForm()">
+        <h2>CONTACT US</h2>
+        <p type="Your Name:"><input id="nameInput" placeholder="First and Last Name"></input></p>
+        <p type="Email Address:"><input id="emailInput" placeholder="Example@gmail.com"></input></p>
+        <p for="cars">What are you interested in?</p>
+        <select id="dropdown" class="col-sm-3 form-control" onkeydown="return false">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="js">JavaScript</option>
+        </select>
+        <button type="submit">Send </button>
+      </form>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
